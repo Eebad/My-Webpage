@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ibad Ur Rehman</title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet"  href="CSS/style.css">
+    <script src="index.js"></script>
+    <!--CSS Only-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></head>
+    
+</head>
+<body onload="myFunction() + changeImg()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a href="#" class="navbar-brand">Ibad Ur Rehman</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a title="To change background image" id="change-img" onclick="changeImg()" class="nav-link">Click Me!</a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+
+    <header class="100-w full-h" id="main-head">
+        <div class="container h-100" >
+            <div class="row text-light h-100">
+                <div class="col-12 col-md-6 align-self-top">
+                    <h1><strong class="header-text" id="name" onmouseover="greetFunc()" onmouseout="greetOut()"></strong></h1>
+                    <h5 class="header-text" id="greets" onmouseover="greetFunc()" onmouseout="greetOut()">Nice to meet you!</h5>
+                    <h6 class="header-text" id="greets2" onmouseover="greetFunc()" onmouseout="greetOut()"><pre>Welcome to my webpage.
+This has been decorated by me.
+If you think i should add
+something to this webpage
+you can drop your views 
+in here as well.
+Please go to the bottom 
+of the page for your 
+suggestions.
+You can change the
+background image by clicking
+at the top left corener.
+                    </pre>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="page-section">
+        <div class="contaier">
+            <div class="text-center">
+                <h1 class="section-heading text-uppercase">About me!</h1>
+                <h3>Below here is some information about myself</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="text-warning fas fa-graduation-cap fa-5x"></i>
+                    <h3 class="my-3 things">Education</h3>
+                    <div class="dropdown-divider"></div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <h4 class="my-2">Post-Graduation</h4>
+                            <div class="dropdown-divider"></div>
+                            <p>M.Sc in Physics from Jamia Millia Islamia</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="my-2">Graduation</h4>
+                            <div class="dropdown-divider"></div>
+                            <p>B.Sc in Physics and Computer Sciences from Jamia Millia Islamia</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="my-2">Intermidiate</h4>
+                            <div class="dropdown-divider"></div>
+                            <p>From Dhampur in Dist. Bijnor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="text-warning fas fa-wrench fa-5x"></i>
+                    <h3 class="my-3 things">Hobbies</h3>
+                    <div class="dropdown-divider"></div>
+                    <ul>
+                        <li class="my-1 ml-auto">Study</li>
+                        <li class="my-1">Knowledge Gathering</li>
+                        <li class="my-1">Gaming</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="text-warning fas fa-heart fa-5x"></i>
+                    <h3 class="my-3 things">Things I Like!</h3>
+                    <div class="dropdown-divider"></div>
+                    <ul>
+                        <li class="my-1">COmputer Sciences</li>
+                        <li class="my-1">Physics</li>
+                        <li class="my-1">Cyber Security</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="text-warning fas fa-gamepad fa-5x"></i>
+                    <h3 class="my-3 things">Games I Like!</h3>
+                    <div class="dropdown-divider"></div>
+                    <ul>
+                        <li class="my-1">FootBall</li>
+                        <li class="my-1">Call of Duty</li>
+                        <li class="my-1">IGI</li>
+                        <li class="my-1">Grand Theft Auto</li>
+                        <li class="my-1">Need For Speed</li>
+                        <li class="my-1"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <i class="text-warning fas fa-bolt fa-5x"></i>
+                    <h3 class="my-3 things">Skills!</h3>
+                    <div class="dropdown-divider"></div>
+                    <ul>
+                        <li class="my-1">HTMl</li>
+                        <li class="my-1">CSS</li>
+                        <li class="my-1">bootstrap</li>
+                        <li class="my-1">JavaScript</li>
+                        <li class="my-1">Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="sector">
+        <div class="contaier">
+            <div class="bg-light">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section bg-secondary text-light">
+        <div class="container">
+            <div>
+                <h1 class="section-heading text-uppercase" id="contact">Contact</h1>
+                <h3 class="section-subheading my-3">You can contact me at:</h3>
+                <div class="column align-items-left">
+                    <div class="dropdown-divider"></div>
+                    <div>
+                        <h5 class="fas fa-mobile contact my-2" > : 99********</h5><br>
+                        <h5 class="fas fa-envelope contact my-2"> : ibadr******@gmail.com</h5>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+
+            <form action="mailto:ibadreman20@gmail.com">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control-lg w-100" id="username" type="text" placeholder="Enter Your Name" required>
+
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control-lg w-100" id="usermail" type="text" placeholder="Enter Your Email" required>
+
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control-lg w-100" id="usernumber" type="text" placeholder="Enter Your Mobile number" required>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group h-100">
+                            <textarea class="form-control-lg w-100"mid="usersuggestion" placeholder="Your Suggestion" style="height: 90%;"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary btn-lg text-uppercase" type="submit" onclick="sendFunc()">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="foorter py-5 bg-warning"> <!--padding from y axis-->
+        <div class="contaier">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left text-dark">
+                    Copyright Ibad-Ur-Rehman
+                </div>
+                <div class="col-lg-4 my-4 my-lg-0">
+                    <a href="https://www.facebook.com/thakur.ibad/" class="fab fa-facebook fa-3x mr-3 text-primary"></a>
+                    <a href="https://www.instagram.com/iibadurrehmann/" class="fab fa-instagram fa-3x mr-3 text-warning text-muted"></a>
+                    <a href="https://www.linkedin.com/in/ibad-ur-rehman-442b6b202/#" class="fab fa-linkedin fa-3x mr-3 text-primary"></a>                    
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a href="#" class="mr-3">Privacy Policy</a>
+                    <a href="#" class="mr-3">Terms Of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
